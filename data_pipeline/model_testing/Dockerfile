@@ -1,9 +1,6 @@
 FROM python:3.8.4
-
-WORKDIR /data_pipeline
-
+WORKDIR /model_testing
 RUN pip install -U scikit-learn numpy 
-
-COPY model_test.py ./model_test.py
-
+COPY model_test.py /model_testing
 ENTRYPOINT [ "python", "model_test.py" ]
+ 

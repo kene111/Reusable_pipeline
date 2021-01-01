@@ -1,9 +1,11 @@
 # import Library
 import joblib
+import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import  f1_score
 import pandas
+import argparse
     
 
 def model_training(clean_data):
@@ -26,12 +28,13 @@ def model_training(clean_data):
     RFC.fit(x_train, y_train)
 
     #saving the x_test and y_test
-    np.save('x_test.npy', X_test)
+    np.save('x_test.npy', x_test)
     np.save('y_test.npy', y_test)
 
     # saving the model
 
     joblib.dump(RFC , 'model.pkl')
+
 
 
 if __name__ == '__main__':

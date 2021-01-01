@@ -4,6 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import  f1_score
+import argparse
     
 
 def model_testing(x_test, y_test, model):
@@ -23,7 +24,7 @@ def model_testing(x_test, y_test, model):
     
     # write predictions to results.txt
     with open('results.txt','w') as result:
-        result.write(f'F1 score: {f1_score_}  \n\n Prediciton: {RFC_pred} | Actual {y_test}')
+        result.write(f'F1 score: {f1_score_}  \n\n Prediciton: {y_pred} | Actual {y_test}')
 
 
 if __name__ == '__main__':
