@@ -8,5 +8,5 @@ more... Check the end of this readme for links to more informtion.
 ![images](images/reusable_pipeline_graph.png)
 
 ### Links:
-[Machine Learning Pipelines](https://towardsdatascience.com/machine-learning-pipelines-with-kubeflow-4c59ad05522)
+[Machine Learning Pipelines](https://towardsdatascience.com/machine-learning-pipelines-with-kubeflow-4c59ad05522), 
 [Starting with docker](https://medium.com/swlh/python-how-starting-with-docker-d2be73d9ae92)
