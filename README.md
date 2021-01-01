@@ -5,4 +5,4 @@ these type component is majorly used for fast and easy deployment ( of machine l
 In this rebuild, I made use of reuseable components, which means that if seen fit, a component in the pipeline can be used in another project can be used on other pipelines and many
 more... Check the end of this readme for links to more informtion.
 
-![images](images/reuseable_pipeline_graph.png)
+![images](images/reusable_pipeline_graph.png)
