@@ -1,4 +1,4 @@
-## Reuseable_pipeline
+## Reusable_pipeline
 
 This is a rebuild of the pipeline I created for the first open source project on road safety during the hamoye internship ([Click Here](https://github.com/HamoyeHQ/stage-f-01-road-safety)). The pipeline created made use of light weight components, 
 this type of component is majorly used for fast and easy deployment ( of machine learning models). The set back with light weight components is, the components can't be used in other pipelines even if the component can be used to complete the workflow of those other pipelines. 
